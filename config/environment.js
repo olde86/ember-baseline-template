@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'fototid',
+    modulePrefix: 'ember-baseline',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
