@@ -1,7 +1,10 @@
 # Ember-baseline
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I love Ember and I love the skel-baseline framework built by [n33](https://github.com/n33)
+So I thought I would create a repo with an ember app with [skel-baseline](https://github.com/n33/skel-baseline) already built into it
+
+I came acros a few problems implemenintng *skel-baseline* into *Ember* first of all, I use grunt to compile *baselines* sass files.
+the install skel-baseline package breaks the Ember javascript so I installed jquery and wraped the contents of `bower_components/baseline/assets/js/main.js` in a `$(document).ready(function(){ ... contents of main here ... });`
 
 ## Prerequisites
 
@@ -19,6 +22,9 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+
+## Run grunt in a new tab
+* `sudo grunt`
 
 ## Running / Development
 
